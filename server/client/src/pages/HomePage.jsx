@@ -19,7 +19,6 @@ function HomePage() {
   const getPhones = (() => {
     axios.get(`${process.env.REACT_APP_SERVER_URL}/api/phones/`)
       .then((phones)=>{
-        console.log(phones)
         setPhones(phones.data)
       })
   })
