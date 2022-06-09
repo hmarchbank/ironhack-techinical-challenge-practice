@@ -11,7 +11,7 @@
 .homepage{
     color: white;
     background: rgb(14, 14, 159);
-    height: 100vh
+    min-height: 100vh
 }
 
 h1{
@@ -20,7 +20,7 @@ h1{
 }
 
 .phone-box{
-    width: 20%;
+    width: 25%;
     padding: 1rem;
     margin: 1rem;
     /* color: white; */
@@ -44,4 +44,5 @@ h1{
     max-width: 50%;
     height: 90%;
     border-radius: 25px;
+    margin: .2rem;
 }
