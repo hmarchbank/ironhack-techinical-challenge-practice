@@ -1,0 +1,47 @@
+
+
+.phones{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;  
+    width: 70%;
+    margin: 0 auto; 
+} 
+
+.homepage{
+    color: white;
+    background: rgb(14, 14, 159);
+    height: 100vh
+}
+
+h1{
+    margin: 0;
+    padding: 2rem
+}
+
+.phone-box{
+    width: 20%;
+    padding: 1rem;
+    margin: 1rem;
+    /* color: white; */
+    background: rgb(14, 14, 88);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.phone-box a{
+    color: white;
+    text-decoration: none;
+}
+
+.phone-box a:hover{
+    text-decoration: underline;
+}
+
+.phone-image{
+    max-width: 50%;
+    height: 90%;
+    border-radius: 25px;
+}

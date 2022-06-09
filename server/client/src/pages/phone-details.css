@@ -1,0 +1,47 @@
+.phone-details-container{
+    color: white;
+    background: rgb(14, 14, 159);
+    min-height: 100vh;
+    font-size: 1.5rem;
+}
+
+h1{
+    margin: 0;
+    padding: 2rem
+}
+
+.phone-details{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: start;
+    background: rgb(14, 14, 88);
+    border-radius: 25px;
+    display: flex;
+}
+
+.phone-details a{
+    margin: 0 auto;
+    color: black;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.phone-details p {
+    width: 90%;
+}
+
+.phone-details a:hover{
+    background: grey;
+    text-decoration: underline;
+}
+
+.phone-details-image{
+    max-width: 33%;
+    height: 70%;
+    border-radius: 25px;
+}
